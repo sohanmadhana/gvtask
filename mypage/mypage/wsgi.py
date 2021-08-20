@@ -11,8 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-# os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mypage.mypage.settings')
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "config")
-os.environ.setdefault("DJANGO_CONFIGURATION", "Production")
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mypage.mypage.settings')
 
 application = get_wsgi_application()
